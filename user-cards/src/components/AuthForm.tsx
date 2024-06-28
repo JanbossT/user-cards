@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import axios from 'axios';
-import { setToken } from '../store/aut';
+import { setToken } from '../store/authSlice';
 import { useNavigate } from 'react-router-dom';
 
 const AuthForm: React.FC = () => {
@@ -48,8 +48,8 @@ const AuthForm: React.FC = () => {
       </form>
       <div>
         <p>Для тестирования вы можете использовать:</p>
-        <p>Email: eve.holt@reqres.in</p>
-        <p>Password: cityslicka</p>
+        <p>Email: Email: testlogin@mail.com</p>
+        <p>Password:123456789</p>
       </div>
     </div>
   );
