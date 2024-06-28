@@ -100,4 +100,22 @@ body {
       max-width: calc(25% - 20px);
     }
   }
-  
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
